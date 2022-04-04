@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600&display=swap')
+
+@mixin font($fname, $fstyle, $fweight)
+	@font-face
+		font-family: $fname
+		font-style: $fstyle
+		font-weight: $fweight
+
+
+@include font('Open Sans', normal, 400)
+@include font('Open Sans', normal, 600)
+@include font('Open Sans', normal, 700)
+@include font('Poppins', normal, 500)
+@include font('Poppins', normal, 600)

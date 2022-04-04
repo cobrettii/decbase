@@ -1,0 +1,70 @@
+html
+	box-sizing: border-box
+	
+*,
+*::before,
+*::after
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+a
+	text-decoration: none
+	color: $text
+
+ul,
+ol,
+li
+	list-style: none
+	color: $text
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+	color: $title
+
+p
+	color: $text
+
+html,
+body
+	position: relative
+	font-family: Open Sans
+	font-weight: 400
+	font-size: 18px
+
+body._lock
+	overflow: hidden
+
+.container
+	max-width: 1390px
+	padding: 0 15px
+	margin: 0 auto
+
+.title
+	font-family: Poppins
+	font-weight: 500
+
+.subtitle
+	font-weight: 600
+	font-size: 20px
+	line-height: 28px
+
+.btn
+	background: $btngreen
+	cursor: pointer
+	outline: none
+	border: none
+	font-family: Open Sans
+	color: $white
+	&:hover
+		background-color: $btngreendeep
+		transition: all 0.3s
+
+.footer__inner
+	a:hover
+		text-decoration: underline
+		text-decoration-color: $text
